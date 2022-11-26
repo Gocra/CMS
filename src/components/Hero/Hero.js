@@ -2,7 +2,7 @@ import "./Hero.scss";
 
 const Hero = () => {
   return (
-    <main className="hero">
+    <main className="hero" id="home">
       <div className="container">
         <h1 className="title">
           <span className="emphasise">Simple</span> and{" "}
@@ -21,12 +21,12 @@ const Hero = () => {
             <a href="" className="secondary">
               Get Started
             </a>
-            <a href="" className="secondary">
+            <a href="#about" className="secondary">
               Learn More
             </a>
           </div>
           <span>
-            or <a href="">Upgrade</a> your current version
+            or <a href="">upgrade</a> your current version
           </span>
         </div>
       </div>

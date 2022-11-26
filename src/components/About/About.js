@@ -4,11 +4,11 @@ import Card from "./Card";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <div className="card-grid">
-          {Data.map((item) => (
-            <Card {...item} />
+          {Data.map((item, i) => (
+            <Card key={i} {...item} />
           ))}
         </div>
       </div>

@@ -3,7 +3,12 @@
 .navbar{
     width: 100%;
     height: $navbar-height;
-    // border-bottom: 1px solid $clr-primary;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: $body-bg-clr;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid $body-bg-clr-dark;
     .container{
         display: flex;
         align-items: center;

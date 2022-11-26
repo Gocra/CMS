@@ -1,0 +1,12 @@
+.pricing{
+    padding-top: 7rem;
+    .container{
+        .price-card-grid{
+            display:flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+    }
+}

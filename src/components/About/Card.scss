@@ -2,15 +2,18 @@
 
 .about-card{
     text-align: center;
-    padding: 0.5rem;
-    // border: 1px solid $clr-primary;
-    // border-radius: 8px;
-    // transition: all 200ms ease-in-out;
-    // &:hover{
-    //     scale: 1.005;
-    //     box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
-    // }
+    &:hover{
+        .title, .description{
+            color: $clr-primary;
+        }
+    }
     .title{
         margin-bottom: 0.4rem;
+        transition: all 200ms ease-in-out;
+    }
+    .description{
+        transition: all 200ms ease-in-out;
+        width: 80%;
+        margin: auto;
     }
 }

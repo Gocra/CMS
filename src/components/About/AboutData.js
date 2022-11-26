@@ -7,7 +7,7 @@ const Data = [
   {
     title: "Lightweight",
     description:
-      "Only 3.4KB in size making it super lightweight and using a flat file database makes it super fast.",
+      "The web bundle is only 3.4KB in size making it super lightweight and super fast.",
   },
   {
     title: "No Code",
@@ -18,6 +18,11 @@ const Data = [
     title: "Themes",
     description:
       "We have over 1000 themes to choose from that will suit your website needs perfectly.",
+  },
+  {
+    title: "Code",
+    description:
+      "Easily upload already made website files and you can continue using the same code base",
   },
   {
     title: "Open Source",

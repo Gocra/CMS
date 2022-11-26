@@ -1,0 +1,72 @@
+@import "../../utilities/variables";
+
+.price-card{
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: $box-shadow;    
+    border-color: rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 300px;
+    transition: all 100ms ease-in-out;
+
+    &:hover{
+        box-shadow: $box-shadow-hover;
+    }
+
+    .name{
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: $clr-primary;
+    }
+    .price{
+        color: $clr-primary;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        .amount{
+            font-size: 22px;
+        }
+    }
+    .feature-list{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.4rem;
+        margin-bottom: 1.5rem;
+        li{
+            display: flex;
+            align-items: flex-start;
+            word-wrap: break-word;
+            font-size: 14px;
+            text-transform: capitalize;
+            img{
+                width: 18px;
+                margin: 0.2rem 0.3rem 0 0;
+            }
+        }
+    }
+
+    .buy{
+        padding: 0.75rem 1.75rem;
+        margin: auto;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+        border-radius: 6px;
+        box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+        background-color: $clr-primary;
+        border: none;
+        cursor: pointer;
+        color:white;
+        &:hover{
+            box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+            background-color: $clr-primary-accent;
+        }
+    }
+}
