@@ -1,0 +1,44 @@
+@import "../../utilities/variables";
+
+.footer{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 2rem 0 1rem;
+    border-top: 1px solid rgba(0,0,0,0.15);
+    .main{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 1rem 2rem;
+        .footer-section{
+            .title{
+                color: rgb(99, 99, 99);
+                font-weight: 500;
+                margin-bottom: 0.5rem;
+            }
+            .footer-list{
+                display: flex;
+                flex-direction: column;
+                a{
+                    text-decoration: none;
+                    color: grey;
+                    font-size: 14px;
+                    transition: all 200ms ease-in-out;
+                    &:not(:last-child){
+                        margin-bottom: 0.3rem;
+                    }
+                    &:not(.no-hover):hover{
+                        cursor: pointer;
+                        color: $clr-primary;
+                    }
+                }
+            }
+        }
+    }
+    .bottom{
+        padding: 1rem 1rem 0;
+        border-top: 1px solid rgba(0,0,0,0.15);
+        color: grey;
+        font-size: 14px;
+    }
+}

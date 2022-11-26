@@ -1,0 +1,78 @@
+@import "../../utilities/variables";
+
+.hero{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        .title{
+            font-size: 48px;
+            margin-bottom: 2rem;
+            color: $font-color;
+            width: 75%;
+            .emphasise{
+                color: $clr-primary;
+            }
+        }
+        .description{
+            font-size: 17px;
+            color: $font-color;
+            margin-bottom: 2rem;
+            width: 75%;
+        }
+        .bottom{
+            display: flex;
+            flex-direction: column;
+            span {
+                color: grey;
+                a {
+                    color: $clr-primary;
+                    text-decoration: none;
+                    font-size: 14px;
+                    transition: all 100ms ease-in-out;
+                    &:hover{
+                        color: $clr-primary-accent;
+                    }
+                }
+            }
+            .btns{
+                display: flex;
+                align-items: center;
+                column-gap: 0.75rem;
+                margin-bottom: 0.75rem;
+                a{
+                    padding: 0.85rem 1.5rem;
+                    text-decoration: none;
+                    transition: all 200ms ease-in-out;
+                    font-size: 17px;
+                    font-weight: 500;
+                    letter-spacing: 0.1px;
+                    border-radius: 6px;
+                    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+                    &:hover{
+                        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+                    }
+                    &.primary{
+                        background-color: $clr-primary;
+                        color:white;
+                        &:hover{
+                            background-color: $clr-primary-accent;
+                        }
+                    }
+                    &.secondary{
+                        border: 1px solid $clr-secondary;
+                        color: $clr-secondary;
+                        &:hover{
+                            background-color: rgba($clr-secondary-accent, 0.2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

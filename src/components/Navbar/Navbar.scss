@@ -1,0 +1,65 @@
+@import "../../utilities/variables";
+
+.navbar{
+    width: 100%;
+    height: $navbar-height;
+    // border-bottom: 1px solid $clr-primary;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .links, .account{
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: $font-color;
+                font-weight: 500;
+                padding: 0.5rem;
+            }
+        }
+        .links{
+            column-gap: 0.75rem;
+        }
+        .links a{
+            position: relative;
+            &:after{
+                content: "";
+                width: 0%;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 1px;
+                background-color: $clr-primary;
+                transition: all 200ms ease-in-out;
+            }
+            &:hover{
+                color: $clr-primary;
+                &:after{
+                    width: 100%;
+                }
+            }
+        }
+        .account{
+            a{
+                padding: 0.75rem 1rem;
+                transition: all 200ms ease-in-out;
+            }
+            .btn-login{
+                color: $clr-primary;
+                &:hover{
+                    color: $clr-primary-accent;
+                }
+            }
+            .btn-start{
+                background-color: $clr-primary;
+                color:white;
+                border-radius: 6px;
+                &:hover{
+                    background-color: $clr-primary-accent;
+                }
+            }
+        }
+    }
+}
