@@ -8,37 +8,41 @@ const Footer = () => {
           <div className="footer-section">
             <div className="title">Community</div>
             <div className="footer-list">
-              <a href="">Blog</a>
-              <a href="">Status</a>
-              <a href="">Open Collective</a>
-              <a href="">Documentation</a>
-              <a href="">Twitter</a>
-              <a href="">LinkedIn</a>
+              <a>Blog</a>
+              <a>Status</a>
+              <a>Open Collective</a>
+              <a>Documentation</a>
+              <a>Twitter</a>
+              <a>LinkedIn</a>
             </div>
           </div>
           <div className="footer-section">
             <div className="title">Customer Service</div>
             <div className="footer-list">
-              <a href="">Email Support</a>
-              <a href="">Telephone support</a>
-              <a href="">Live Chat</a>
-              <a href="">Report an Issue</a>
+              <a>Email Support</a>
+              <a>Telephone support</a>
+              <a>Live Chat</a>
+              <a>Report an Issue</a>
             </div>
           </div>
           <div className="footer-section">
             <div className="title">Company</div>
             <div className="footer-list">
-              <a href="">About</a>
-              <a href="">Contact</a>
-              <a href="">Privacy Policy</a>
-              <a href="">Terms & Condition</a>
+              <a>About</a>
+              <a>Contact</a>
+              <a>Privacy Policy</a>
+              <a>Terms & Condition</a>
             </div>
           </div>
           <div className="footer-section">
             <div className="title">Made By</div>
             <div className="footer-list">
-              <a href="https://www.github.com/Gocra">Gocra</a>
-              <a href="https://www.github.com/Gocra">GitHub</a>
+              <a target="_blank" href="https://www.github.com/Gocra">
+                Gocra
+              </a>
+              <a target="_blank" href="https://www.github.com/Gocra">
+                GitHub
+              </a>
             </div>
           </div>
         </div>

@@ -15,10 +15,8 @@ const Hero = () => {
         </p>
         <div className="bottom">
           <div className="btns">
-            <a href="" className="primary">
-              Download
-            </a>
-            <a href="" className="secondary">
+            <a className="primary">Download</a>
+            <a href="#pricing" className="secondary">
               Get Started
             </a>
             <a href="#about" className="secondary">
@@ -26,7 +24,7 @@ const Hero = () => {
             </a>
           </div>
           <span>
-            or <a href="">upgrade</a> your current version
+            or <a>upgrade</a> your current version
           </span>
         </div>
       </div>

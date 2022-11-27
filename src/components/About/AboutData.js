@@ -10,9 +10,9 @@ const Data = [
       "The web bundle is only 3.4KB in size making it super lightweight and super fast.",
   },
   {
-    title: "No Code",
+    title: "No Database",
     description:
-      "Our themes and drag and drop makes it easier than ever to easily create stunning websites with no need for code.",
+      "We use a flat file CMS, meaning no SQL queries and making it super fast.",
   },
   {
     title: "Themes",

@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import C2A from "./components/C2A/C2A";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -13,7 +14,9 @@ function App() {
       <About />
       {/* themes */}
       <Pricing />
+      <C2A />
       <Footer />
+      {/* mobile responsiveness */}
     </div>
   );
 }

@@ -8,17 +8,13 @@ const Navbar = () => {
         <div className="links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="">Docs</a>
-          <a href="">Themes</a>
+          <a>Docs</a>
+          <a>Themes</a>
           <a href="#pricing">Pricing</a>
         </div>
         <div className="account">
-          <a href="" className="btn-login">
-            Login
-          </a>
-          <a href="" className="btn-start">
-            Start Free Trial
-          </a>
+          <a className="btn-login">Login</a>
+          <a className="btn-start">Start Free Trial</a>
         </div>
       </div>
     </nav>

@@ -3,9 +3,13 @@
 .about-card{
     text-align: center;
     &:hover{
-        .title, .description{
+        .icon-container, .title, .description{
             color: $clr-primary;
         }
+    }
+    .icon-container{
+        margin-bottom: 0.4rem;
+        transition: all 200ms ease-in-out;
     }
     .title{
         margin-bottom: 0.4rem;

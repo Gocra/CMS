@@ -8,7 +8,7 @@ const About = () => {
       <div className="container">
         <div className="card-grid">
           {Data.map((item, i) => (
-            <Card key={i} {...item} />
+            <Card key={i} {...item} i={i} />
           ))}
         </div>
       </div>
