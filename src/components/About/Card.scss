@@ -2,6 +2,8 @@
 
 .about-card{
     text-align: center;
+    width: fit-content;
+    max-width: fit-content;
     &:hover{
         .icon-container, .title, .description{
             color: $clr-primary;
@@ -17,7 +19,25 @@
     }
     .description{
         transition: all 200ms ease-in-out;
-        width: 80%;
         margin: auto;
+        max-width: 200px;
+    }
+    @media screen and (min-width: $xs) {
+        .title{
+            font-size: 20px;
+        }
+        .description{
+            font-size: 14px;
+            max-width: 130px;
+        }
+    }
+    @media screen and (min-width: $sm) {
+        .title{
+            font-size: 22px;
+        }
+        .description{
+            font-size: 15px;
+            max-width: 150px;
+        }
     }
 }

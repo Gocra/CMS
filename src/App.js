@@ -16,7 +16,7 @@ function App() {
       <Pricing />
       <C2A />
       <Footer />
-      {/* mobile responsiveness */}
+      {/* mobile responsiveness - navbar, hero */}
     </div>
   );
 }
