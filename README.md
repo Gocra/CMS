@@ -1,6 +1,6 @@
 # A Content Management System Website
 
-[View Live Site](https://cms-gocra.vercel.app/)
+[View Live Site](cms-liard-seven.vercel.app/)
 
 Simple and modern designed website for a cms
 
