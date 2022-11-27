@@ -2,7 +2,8 @@
 
 .hero{
     padding-top: 8rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
+    // height: calc(0vh - #{$navbar-height});
     @media screen and (max-width: $md) {
         // padding-bottom: 0;
         padding-top: 6rem;

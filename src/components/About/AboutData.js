@@ -12,7 +12,7 @@ const Data = [
   {
     title: "No Database",
     description:
-      "We use a flat file CMS, meaning no SQL queries and making it super fast.",
+      "We use a flat file CMS, meaning no hassle with SQL and making it super fast.",
   },
   {
     title: "Themes",

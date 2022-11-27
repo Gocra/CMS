@@ -1,7 +1,7 @@
 @import "../../utilities/variables";
 
 .pricing{
-    padding-top: 7rem;
+    padding-top: 4rem;
     .container{
         .price-card-grid{
             display:flex;
@@ -9,7 +9,7 @@
             flex-wrap: wrap;
             gap: 1rem;
             justify-content: center;
-            margin-bottom: 4rem;
+            margin-bottom: 5rem;
         }
         .info{
             display: flex;
