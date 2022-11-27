@@ -6,6 +6,9 @@
     padding: 2rem 0 1rem;
     border-top: 1px solid rgba(0,0,0,0.15);
     .container{
+        @media screen and (max-width: $sm) {
+            width: 80vw;
+        }
         .main{
             display: flex;
             align-items: flex-start;

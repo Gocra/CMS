@@ -10,14 +10,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* logo & name */}
+      {/* favicon */}
       <Hero />
       <About />
       {/* themes */}
       <Pricing />
       <C2A />
       <Footer />
-      {/* mobile responsiveness - navbar, hero */}
+      {/* mobile responsiveness - navbar */}
     </div>
   );
 }

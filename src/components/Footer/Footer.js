@@ -44,10 +44,18 @@ const Footer = () => {
             <div className="content">
               <div className="title">Made By</div>
               <div className="footer-list">
-                <a target="_blank" href="https://www.github.com/Gocra">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.github.com/Gocra"
+                >
                   Gocra
                 </a>
-                <a target="_blank" href="https://www.github.com/Gocra">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.github.com/Gocra"
+                >
                   GitHub
                 </a>
               </div>
@@ -55,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bottom">
-          <span>&copy; CMS 2022, All Rights Reserved</span>
+          <span>&copy; GCMS 2022, All Rights Reserved</span>
         </div>
       </div>
     </footer>

@@ -4,8 +4,11 @@ const Hero = () => {
   return (
     <main className="hero" id="home">
       <div className="container">
+        <h1 className="intro">
+          <span>Introducing</span> <span className="logo">GCMS</span>
+        </h1>
         <h1 className="title">
-          <span className="emphasise">Simple</span> and{" "}
+          A <span className="emphasise">simple</span> and{" "}
           <span className="emphasise">lightweight</span> flat file CMS
         </h1>
         <p className="description">
@@ -23,7 +26,7 @@ const Hero = () => {
               Learn More
             </a>
           </div>
-          <span>
+          <span className="upgrade">
             or <a>upgrade</a> your current version
           </span>
         </div>
