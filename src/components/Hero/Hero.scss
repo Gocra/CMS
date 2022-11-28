@@ -2,15 +2,14 @@
 
 .hero{
     padding-top: 9rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     @media screen and (max-width: $md) {
         padding-top: 4rem;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
     }
     @media screen and (max-width: $sm) {
-        height: unset;
-        padding-top: 1.5rem;
-        padding-bottom: 0;
+        padding-top: 2.5rem;
+        padding-bottom: 4rem;
     }
     .container{
         display: flex;

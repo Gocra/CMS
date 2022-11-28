@@ -2,7 +2,14 @@
 
 .pricing{
     padding-top: 4rem;
+    @media screen and (max-width: $md) {
+        padding-top: 2rem;
+    }
+    @media screen and (max-width: $sm) {
+        padding-top: 1rem;
+    }
     .container{
+        width: 90vw;
         .price-card-grid{
             display:flex;
             align-items: flex-start;
@@ -10,6 +17,12 @@
             gap: 1rem;
             justify-content: center;
             margin-bottom: 5rem;
+            @media screen and (max-width: $md) {
+                margin-bottom: 4rem;
+            }
+            @media screen and (max-width: $sm) {
+                margin-bottom: 3rem;
+            }
         }
         .info{
             display: flex;
