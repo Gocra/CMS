@@ -22,6 +22,9 @@
         margin: auto;
         max-width: 200px;
     }
+    .icon{
+        font-size: 80px;
+    }
     @media screen and (min-width: $xs) {
         .title{
             font-size: 20px;
@@ -29,6 +32,9 @@
         .description{
             font-size: 14px;
             max-width: 130px;
+        }
+        .icon{
+            font-size: 60px;
         }
     }
     @media screen and (min-width: $sm) {
@@ -38,6 +44,14 @@
         .description{
             font-size: 15px;
             max-width: 150px;
+        }
+        .icon{
+            font-size: 70px;
+        }
+    }
+    @media screen and (min-width: $md) {
+        .icon{
+            font-size: 80px;
         }
     }
 }

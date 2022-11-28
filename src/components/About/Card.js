@@ -7,12 +7,12 @@ import { FaDatabase } from "react-icons/fa";
 import { IoGitBranchOutline } from "react-icons/io5";
 
 const iconArray = [
-  <BsFillHandThumbsUpFill size="80px" className="icon" />,
-  <GiFeather size="80px" className="icon" />,
-  <FaDatabase size="80px" className="icon" />,
-  <TfiFiles size="80px" className="icon" />,
-  <RiCodeSSlashFill size="80px" className="icon" />,
-  <IoGitBranchOutline size="80px" className="icon" />,
+  <BsFillHandThumbsUpFill className="icon" />,
+  <GiFeather className="icon" />,
+  <FaDatabase className="icon" />,
+  <TfiFiles className="icon" />,
+  <RiCodeSSlashFill className="icon" />,
+  <IoGitBranchOutline className="icon" />,
 ];
 
 const Card = ({ title, description, i }) => {

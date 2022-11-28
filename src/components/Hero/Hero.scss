@@ -1,7 +1,6 @@
 @import "../../utilities/variables";
 
 .hero{
-    // height: calc(100vh - #{$navbar-height});
     padding-top: 9rem;
     padding-bottom: 2rem;
     @media screen and (max-width: $md) {
@@ -23,6 +22,7 @@
         .intro{
             font-size: 64px;
             margin-bottom: 1rem;
+            margin: auto;
             .logo{
                 font-size: inherit;
             }
@@ -84,9 +84,12 @@
                 justify-content: center;
                 @media screen and (max-width: $sm) {
                     gap: 0.25rem;
-                    margin-bottom: 0.5rem;
+                    margin-bottom: 1rem;
+                    margin-top: 0.5rem;
                 }
+
                 a{
+                    display: inline-block;
                     padding: 0.85rem 1.5rem;
                     text-decoration: none;
                     transition: all 200ms ease-in-out;
