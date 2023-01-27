@@ -42,22 +42,11 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <div className="content">
-              <div className="title">Made By</div>
+              <div className="title">Solutions</div>
               <div className="footer-list">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.github.com/Gocra"
-                >
-                  Gocra
-                </a>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.github.com/Gocra"
-                >
-                  GitHub
-                </a>
+                <a>Online store builder</a>
+                <a>Website builder</a>
+                <a>Ecommerce website</a>
               </div>
             </div>
           </div>
